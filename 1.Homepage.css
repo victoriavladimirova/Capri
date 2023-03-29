@@ -65,11 +65,11 @@ padding: 10px 12px;
 }
 
 .nav-flags {
-  margin-right: 1.2rem;
+margin: 0 !important;
+padding: 0 !important;
 }
 
-.nav-flags img {
-  padding: 0.5rem;
+.nav-links img {
   filter: drop-shadow(2px 2px 2px #838383);
 }
 
@@ -122,11 +122,11 @@ display: none;
 
 .nav-btn label span {
   display: block;
-  height: 10px;
-  width: 25px;
+  height: 9px;
+  width: 30px;
   border-top: 3px solid #a78328;
-
 }
+
 .nav-btn label:hover,  #nav-check:checked ~ .nav-btn label {
  color: #a78328;
 }
@@ -139,8 +139,21 @@ display: none;
   background-color: #f2f2f2;
   transition: all 0.3s ease-in;
   overflow-y: hidden;
-  top: 92px;
+  top: 80px;
   right: 0px;
+}
+
+.nav-flags {
+  position: absolute;
+  display: inline;
+  width: 40%;
+  background-color: #f2f2f2;
+  transition: all 0.3s ease-in;
+  overflow-y: hidden;
+  text-align: center;
+  right: 0px;
+  top: 250px;
+
 }
 
 .nav-links a {
